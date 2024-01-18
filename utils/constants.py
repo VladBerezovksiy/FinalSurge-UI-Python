@@ -1,0 +1,8 @@
+class ThreedSleepValues:
+    SHORT_SLEEP = 1
+    NORMAL_SLEEP = 3
+    LONG_SLEEP = 5
+    VERY_LONG_SLEEP = 7
+    VERY_LONG_SLEEP3 = 15
+    VERY_LONG_SLEEP2 = 150
+    VERY_LONG_SLEEP1 = 250

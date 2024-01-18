@@ -1,0 +1,6 @@
+{
+  "browser": "chrome",
+  "headless_mode": false,
+  "base_url": "https://log.finalsurge.com/",
+  "timeout": 10
+}
