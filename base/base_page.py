@@ -100,8 +100,8 @@ class BasePage:
             self.driver.quit()
 
     def switch_to_frame(self, locator):
-        self.wait_for_visible(*locator)
-        self.driver.switch_to.frame(locator)
+        self.wait_for_visible(locator)
+        self.driver.switch_to.frame(self.get_element(locator))
 
     def switch_to_default_window(self):
         window_handles = self.driver.window_handles

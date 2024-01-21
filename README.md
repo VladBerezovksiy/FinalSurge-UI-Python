@@ -67,5 +67,5 @@ allure serve
 | 6  | Resources      | ---    |
 | 7  | Message Boards | ---    |
 | 8  | Calendar       | ---    |
-| 9  | Workout Calc   | ---    |
+| 9  | Workout Calc   | Done   |
 | 10 | Other Calc     | ---    |

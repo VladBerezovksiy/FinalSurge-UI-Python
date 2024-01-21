@@ -4,8 +4,8 @@ from random import randint
 
 @dataclass
 class WorkoutCalc:
-    recent_hh: int = randint(1, 9)
-    recent_mm: int = randint(1, 9)
+    recent_hh: int = randint(2, 9)
+    recent_mm: int = randint(2, 9)
     recent_ss: int = randint(1, 9)
     short_test: int = randint(21, 50)
     goal_hh: int = randint(1, 9)

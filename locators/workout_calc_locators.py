@@ -7,7 +7,7 @@ class WorkoutCalcGeneralPageLocators:
     results_in_tables = (By.XPATH, "//div[@class='w-box-content']/table")
 
 
-class PalladinoWorkoutCalcGeneralPageLocators:
+class PalladinoWorkoutCalcPageLocators:
     palladino_title_text = (By.XPATH, "//h5[contains(.,'Calculate Interval Power Targets')]")
     palladino_btn = (By.XPATH, "//a[text()='Palladino']")
     critical_power_input_field = (By.ID, "CP")
@@ -28,7 +28,7 @@ class PalladinoWorkoutCalcGeneralPageLocators:
     submit_btn3 = (By.ID, "saveButtonSettings4")
 
 
-class TinmanWorkoutCalcGeneralPageLocators:
+class TinmanWorkoutCalcPageLocators:
     tinman_title_text = (By.XPATH, "//h5[contains(.,'Enter your most recent Race Time')]")
     tinman_btn = (By.XPATH, "//a[text()='Tinman']")
     r_distance_dropdown = (By.XPATH, "//select[@name='distance']")
@@ -37,7 +37,7 @@ class TinmanWorkoutCalcGeneralPageLocators:
     male_radio_btn = (By.ID, "Male")
 
 
-class McMillanWorkoutCalcGeneralPageLocators:
+class McMillanWorkoutCalcPageLocators:
     mcmillan_title_text = (By.XPATH, "//h5[contains(.,'Enter a recent race time (or estimated time)')]")
     mcmillan_btn = (By.XPATH, "//a[text()='McMillan']")
     g_event_hh_input_field = (By.ID, "GTimeHH")
@@ -51,7 +51,7 @@ class McMillanWorkoutCalcGeneralPageLocators:
     goal_distance_dropdown_option = (By.XPATH, "//select[@name='goaldistance']/option")
 
 
-class HansonWorkoutCalcGeneralPageLocators:
+class HansonWorkoutCalcPageLocators:
     hansons_title_text = (By.XPATH, "//h5[contains(.,'Enter a recent race time or goal time below')]")
     hansons_btn = (By.XPATH, "//a[text()='Hansons']")
     distance_dropdown = (By.ID, "RaceDist")
@@ -62,7 +62,7 @@ class HansonWorkoutCalcGeneralPageLocators:
     wind_speed_input_field = (By.ID, "Wind")
 
 
-class IntensityHansonWorkoutCalcGeneralPageLocators:
+class IntensityHansonWorkoutCalcPageLocators:
     intensity_title_text = (By.XPATH, "//h4[contains(.,'Running Workout Intensity Calculator')]")
     intensity_btn = (By.XPATH, "//button[text()='Intensity']")
     event_radio_btn = (By.ID, "MARATHON")
