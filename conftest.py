@@ -7,7 +7,7 @@ from utils.driver_factory import DriverFactory
 
 # Path to run test from 'Terminal'
 # CONFIG_PATH = os.path.abspath("../config.json")
-CONFIG_PATH = os.path.abspath("../FinalSurge-UI/config.json")
+CONFIG_PATH = os.path.abspath("../FinalSurge-UI-Python/config.json")
 
 
 @pytest.fixture(scope="session")

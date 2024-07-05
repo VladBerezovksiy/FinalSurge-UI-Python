@@ -5,7 +5,7 @@ from random import randint
 
 @dataclass
 class Routes:
-    name: str = f"Route {date.today().strftime("%m/%d/%Y")}"
+    name: str = f"Route {date.today().strftime('%m/%d/%Y')}"
     distance: int = randint(1, 99)
     route_record: str = datetime.now().strftime("%H:%M")
     date_record: str = date.today().strftime("%m/%d/%Y")

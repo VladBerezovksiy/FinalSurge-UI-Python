@@ -5,7 +5,7 @@ from random import randint
 
 @dataclass
 class Shoes:
-    name: str = f"Shoe {date.today().strftime("%m/%d/%Y")}"
+    name: str = f"Shoe {date.today().strftime('%m/%d/%Y')}"
     modal: str = "Zero 112"
     cost: int = randint(1, 99)
     starting_distance: int = randint(1, 99)
